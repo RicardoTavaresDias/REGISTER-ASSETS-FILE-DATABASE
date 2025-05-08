@@ -1,0 +1,2009 @@
+{
+	"log": {
+		"version": "1.2",
+		"creator": {
+			"name": "Insomnia REST Client",
+			"version": "insomnia.desktop.app:v11.0.2"
+		},
+		"entries": [
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 16.897,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3333/import-glpi",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsidXNlciI6IlUyRnNkR1ZrWDE4b2IrTFBvYTc4VmYvQWpNY3hncytaTngvK3FEdktCNms9IiwicGFzc3dvcmQiOiJVMkZzZEdWa1gxK1hOOFNFcEJaWUlJMUhYRFNVbGlsdVFOZVJvYjFjOTFRPSJ9LCJpYXQiOjE3NDY2NzQyOTIsImV4cCI6MTc0Njc2MDY5Mn0.ezt_J_-dbG9z3ag2cLULB46aVdoJ9K1p6h48MWSL2x8"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 401,
+					"statusText": "Unauthorized",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "45"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"2d-fGAFlq4NfElZLy61am0HflNqUqQ\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 07 May 2025 18:36:14 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 45,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"Token expirado, realizar login.\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 16.897,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Index Assets"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 2.5669999999999997,
+				"request": {
+					"method": "PATCH",
+					"url": "http://localhost:3333/import-glpi",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsidXNlciI6IlUyRnNkR1ZrWDE4b2IrTFBvYTc4VmYvQWpNY3hncytaTngvK3FEdktCNms9IiwicGFzc3dvcmQiOiJVMkZzZEdWa1gxK1hOOFNFcEJaWUlJMUhYRFNVbGlsdVFOZVJvYjFjOTFRPSJ9LCJpYXQiOjE3NDY2NzQyOTIsImV4cCI6MTc0Njc2MDY5Mn0.ezt_J_-dbG9z3ag2cLULB46aVdoJ9K1p6h48MWSL2x8"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 401,
+					"statusText": "Unauthorized",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "45"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"2d-fGAFlq4NfElZLy61am0HflNqUqQ\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 07 May 2025 18:36:15 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 45,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"Token expirado, realizar login.\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 2.5669999999999997,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Update Assets"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 3.094,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3333/import-glpi",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsidXNlciI6IlUyRnNkR1ZrWDE4b2IrTFBvYTc4VmYvQWpNY3hncytaTngvK3FEdktCNms9IiwicGFzc3dvcmQiOiJVMkZzZEdWa1gxK1hOOFNFcEJaWUlJMUhYRFNVbGlsdVFOZVJvYjFjOTFRPSJ9LCJpYXQiOjE3NDY2NzQyOTIsImV4cCI6MTc0Njc2MDY5Mn0.ezt_J_-dbG9z3ag2cLULB46aVdoJ9K1p6h48MWSL2x8"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"units\": \"AMA Especialidades Vila Constância - Dr. Vicente Octavio Guida\"\n}"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 401,
+					"statusText": "Unauthorized",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "45"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"2d-fGAFlq4NfElZLy61am0HflNqUqQ\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 07 May 2025 18:36:18 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 45,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"Token expirado, realizar login.\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 3.094,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Create Assets"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 20.805,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3333/login/glpi",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"user\": \"ricardo.dias\",\n\t\"password\": \"chopper2#\"\n}\n"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "304"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"130-1csiqTDmsDr5WY3JuggRFY0949U\""
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 08 May 2025 03:18:12 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 304,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"tokenGlpi\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsidXNlciI6IlUyRnNkR1ZrWDE4b2IrTFBvYTc4VmYvQWpNY3hncytaTngvK3FEdktCNms9IiwicGFzc3dvcmQiOiJVMkZzZEdWa1gxK1hOOFNFcEJaWUlJMUhYRFNVbGlsdVFOZVJvYjFjOTFRPSJ9LCJpYXQiOjE3NDY2NzQyOTIsImV4cCI6MTc0Njc2MDY5Mn0.ezt_J_-dbG9z3ag2cLULB46aVdoJ9K1p6h48MWSL2x8\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 20.805,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Login GLPI"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 106.46600000000001,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3333/login",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"user\": \"admin\",\n\t\"password\": \"123456\",\n\t\"role\": \"admin\"\n}\n"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "232"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"e8-mogwU++QnBuk63zmlGpvAPLKt88\""
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 08 May 2025 03:22:16 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 232,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIkMmIkMDgkZjlKQTNoUE5NTEkuZU8wcXdtUlprdS5FWi9pUzMwdnFvQUlJVVFXSHRUTy5iR2U5M013Z0ciLCJpYXQiOjE3NDY2NzQ1MzYsImV4cCI6MTc0NjY3NDU1MX0.I4gN1XXhV502AYPV17HiWJGH5pOcd2tDpaAbYwdbtRw\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 106.46600000000001,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Login"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 25.206,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3333/suggestions/sector",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIkMmIkMDgkZjlKQTNoUE5NTEkuZU8wcXdtUlprdS5FWi9pUzMwdnFvQUlJVVFXSHRUTy5iR2U5M013Z0ciLCJpYXQiOjE3NDY2NzQ1MzYsImV4cCI6MTc0NjY3NDU1MX0.I4gN1XXhV502AYPV17HiWJGH5pOcd2tDpaAbYwdbtRw"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "[\n\t{\n\t\t\"id\": \"12\",\n\t\t\"name\": \"Daniele\"\n\t},\n\t{\n\t\t\"id\": \"123\",\n\t\t\"name\": \"Marcos\"\n\t}\n]"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 401,
+					"statusText": "Unauthorized",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "45"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"2d-fGAFlq4NfElZLy61am0HflNqUqQ\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 07 May 2025 17:56:09 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 45,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"Token expirado, realizar login.\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 25.206,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Sector"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 5.861,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3333/suggestions/equipment",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIkMmIkMDgkZjlKQTNoUE5NTEkuZU8wcXdtUlprdS5FWi9pUzMwdnFvQUlJVVFXSHRUTy5iR2U5M013Z0ciLCJpYXQiOjE3NDY2NzQ1MzYsImV4cCI6MTc0NjY3NDU1MX0.I4gN1XXhV502AYPV17HiWJGH5pOcd2tDpaAbYwdbtRw"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "[\n\t{\n\t\t\"name\": \"Roteádor\"\n\t}\n]\n\n\n\n\n\n"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 401,
+					"statusText": "Unauthorized",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "45"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"2d-fGAFlq4NfElZLy61am0HflNqUqQ\""
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 08 May 2025 03:22:31 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 45,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"Token expirado, realizar login.\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 5.861,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Equipment"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 10.745,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3333/suggestions/units",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIkMmIkMDgkZjlKQTNoUE5NTEkuZU8wcXdtUlprdS5FWi9pUzMwdnFvQUlJVVFXSHRUTy5iR2U5M013Z0ciLCJpYXQiOjE3NDY2NzQ1MzYsImV4cCI6MTc0NjY3NDU1MX0.I4gN1XXhV502AYPV17HiWJGH5pOcd2tDpaAbYwdbtRw"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "[\n\t{\n\t\t\"name\": \"Daniele\"\n\t},\n\t{\n\t\t\"name\": \"Marcos\"\n\t}\n]"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 201,
+					"statusText": "Created",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "50"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"32-SFeVhXqzAQbJW9tu+6rRzgvKXBc\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 29 Apr 2025 20:02:30 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 50,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"Item adicionado com sucesso no units\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 10.745,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Units"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 67.35,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3333/upload",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "multipart/form-data"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Basic ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnpkV0lpT2lJa01tSWtNRGdrWmpsS1FUTm9VRTVOVEVrdVpVOHdjWGR0VWxwcmRTNUZXaTlwVXpNd2RuRnZRVWxKVlZGWFNIUlVUeTVpUjJVNU0wMTNaMGNpTENKcFlYUWlPakUzTkRZMk56UTFNellzSW1WNGNDSTZNVGMwTmpZM05EVTFNWDAuSTRnTjFYWGhWNTAyQVlQVjE3SGlXSkdINXBPY2QydERwYUFiWXdkYnRSdzo="
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "multipart/form-data",
+						"params": [
+							{
+								"name": "file",
+								"fileName": "C:\\Users\\Ricardo\\Downloads\\REACT NAVEGAÇÃO.pdf"
+							}
+						]
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 422,
+					"statusText": "Unprocessable Entity",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "54"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"36-yxNMSO1jAeYPcZd3DHnT9OYFiY0\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 07 May 2025 12:39:52 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 54,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"Invalid file type only jpg, jpeg and png\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 67.35,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "IMAGEM"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 239.61499999999998,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3333/",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Basic ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnpkV0lpT2lJa01tSWtNRGdrWmpsS1FUTm9VRTVOVEVrdVpVOHdjWGR0VWxwcmRTNUZXaTlwVXpNd2RuRnZRVWxKVlZGWFNIUlVUeTVpUjJVNU0wMTNaMGNpTENKcFlYUWlPakUzTkRZMk56UTFNellzSW1WNGNDSTZNVGMwTmpZM05EVTFNWDAuSTRnTjFYWGhWNTAyQVlQVjE3SGlXSkdINXBPY2QydERwYUFiWXdkYnRSdzo="
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "\n{\n\t\"serie\": \"teste1\",\n\t\"sector\": \"consultorio5\",\n\t\"equipment\": \"Roteador\",\n\t\"units\": \"AMA/UBS Vila Império I\"\n}\n"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "68"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"44-Yq8Ew8pmMwMyr9NElYpR4U4znaI\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 07 May 2025 21:01:40 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 68,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"SN: e Setor cadastrado com sucesso, na planilha Excel!\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 239.61499999999998,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Planilha"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 16.532999999999998,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3333/suggestions/sector",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIkMmIkMDgkZjlKQTNoUE5NTEkuZU8wcXdtUlprdS5FWi9pUzMwdnFvQUlJVVFXSHRUTy5iR2U5M013Z0ciLCJpYXQiOjE3NDY2NzQ1MzYsImV4cCI6MTc0NjY3NDU1MX0.I4gN1XXhV502AYPV17HiWJGH5pOcd2tDpaAbYwdbtRw"
+						}
+					],
+					"queryString": [
+						{
+							"name": "page",
+							"value": "10"
+						},
+						{
+							"name": "limit",
+							"value": "10"
+						}
+					],
+					"postData": {
+						"mimeType": "",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "317"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"13d-Y4JOGE2qSSdxqNbBmp54ir3jtbY\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 07 May 2025 18:20:46 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 317,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"totalPage\":10,\"results\":{\"prev\":{\"page\":9,\"limit\":\"10\"},\"result\":[{\"id\":\"746\",\"sector\":\"SUPERVISÃO\"},{\"id\":\"710\",\"sector\":\"Supervisão de Enfermagem\"},{\"id\":\"874\",\"sector\":\"SUPRIMENTOS\"},{\"id\":\"732\",\"sector\":\"SUVIS\"},{\"id\":\"870\",\"sector\":\"T.I\"},{\"id\":\"877\",\"sector\":\"TREINAMENTO\"},{\"id\":\"707\",\"sector\":\"VACINA\"}]}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 16.532999999999998,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Sector"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 83.21199999999999,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3333/log/sector",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIkMmIkMDgkZjlKQTNoUE5NTEkuZU8wcXdtUlprdS5FWi9pUzMwdnFvQUlJVVFXSHRUTy5iR2U5M013Z0ciLCJpYXQiOjE3NDY2NzQ1MzYsImV4cCI6MTc0NjY3NDU1MX0.I4gN1XXhV502AYPV17HiWJGH5pOcd2tDpaAbYwdbtRw"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 400,
+					"statusText": "Bad Request",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "48"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"30-svRCAIiRAs+g3fDX5AAfmytM3B4\""
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 08 May 2025 03:17:40 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 48,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"Sem registros disponíveis no log.\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 83.21199999999999,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Sector"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 29.770999999999997,
+				"request": {
+					"method": "DELETE",
+					"url": "http://localhost:3333/suggestions/sector",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIkMmIkMDgkZjlKQTNoUE5NTEkuZU8wcXdtUlprdS5FWi9pUzMwdnFvQUlJVVFXSHRUTy5iR2U5M013Z0ciLCJpYXQiOjE3NDY2NzQ1MzYsImV4cCI6MTc0NjY3NDU1MX0.I4gN1XXhV502AYPV17HiWJGH5pOcd2tDpaAbYwdbtRw"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "[\n\t{\n\t\t\"name\": \"Marcos\"\n\t},\n\t{\n\t\t\"name\": \"Daniele\"\n\t}\n]"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 400,
+					"statusText": "Bad Request",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "43"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"2b-XpNxgDnWOuWng3TytmVJ7od3li8\""
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 08 May 2025 03:17:58 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 43,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"Item não encontrado na base.\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 29.770999999999997,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Sector"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 3.528,
+				"request": {
+					"method": "DELETE",
+					"url": "http://localhost:3333/log/sector",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIkMmIkMDgkZjlKQTNoUE5NTEkuZU8wcXdtUlprdS5FWi9pUzMwdnFvQUlJVVFXSHRUTy5iR2U5M013Z0ciLCJpYXQiOjE3NDY2NzQ1MzYsImV4cCI6MTc0NjY3NDU1MX0.I4gN1XXhV502AYPV17HiWJGH5pOcd2tDpaAbYwdbtRw"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "[\n\t{\n\t\t\"name\": \"Marcos\"\n\t},\n\t{\n\t\t\"name\": \"Daniele\"\n\t}\n]"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "40"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"28-b8Z1fCGVX7+bk0CkqPWNRLG5plk\""
+						},
+						{
+							"name": "Date",
+							"value": "Mon, 28 Apr 2025 04:22:09 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 40,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"Logs removido com sucesso.\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 3.528,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Sector"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 4.562,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3333/suggestions/equipment",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIkMmIkMDgkZjlKQTNoUE5NTEkuZU8wcXdtUlprdS5FWi9pUzMwdnFvQUlJVVFXSHRUTy5iR2U5M013Z0ciLCJpYXQiOjE3NDY2NzQ1MzYsImV4cCI6MTc0NjY3NDU1MX0.I4gN1XXhV502AYPV17HiWJGH5pOcd2tDpaAbYwdbtRw"
+						}
+					],
+					"queryString": [
+						{
+							"name": "page",
+							"value": "1"
+						},
+						{
+							"name": "limit",
+							"value": "10"
+						}
+					],
+					"postData": {
+						"mimeType": "application/json",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "116"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"74-nF12O3W86RwVnYMXbodStOGOXSw\""
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 08 May 2025 03:22:42 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 116,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"totalPage\":1,\"results\":{\"result\":[{\"equipment\":\"Computador\"},{\"equipment\":\"Monitor\"},{\"equipment\":\"Impressora\"}]}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 4.562,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Equipment"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 11.034,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3333/log/equipment",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIkMmIkMDgkZjlKQTNoUE5NTEkuZU8wcXdtUlprdS5FWi9pUzMwdnFvQUlJVVFXSHRUTy5iR2U5M013Z0ciLCJpYXQiOjE3NDY2NzQ1MzYsImV4cCI6MTc0NjY3NDU1MX0.I4gN1XXhV502AYPV17HiWJGH5pOcd2tDpaAbYwdbtRw"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "74"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"4a-sRWBF/gq7hxPQVjzBdWgkgko2dw\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 07 May 2025 12:45:25 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 74,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[\"[07-05-2025T09:43:39] - Roteador\",\"[07-05-2025T09:45:18] - Roteador\",\"\"]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 11.034,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Equipment"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 5.785,
+				"request": {
+					"method": "DELETE",
+					"url": "http://localhost:3333/suggestions/equipment",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIkMmIkMDgkZjlKQTNoUE5NTEkuZU8wcXdtUlprdS5FWi9pUzMwdnFvQUlJVVFXSHRUTy5iR2U5M013Z0ciLCJpYXQiOjE3NDY2NzQ1MzYsImV4cCI6MTc0NjY3NDU1MX0.I4gN1XXhV502AYPV17HiWJGH5pOcd2tDpaAbYwdbtRw"
+						}
+					],
+					"queryString": [
+						{
+							"name": "",
+							"value": ""
+						}
+					],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "[\n\t{\n\t\t\"name\": \"roteador\"\n\t}\n]"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 401,
+					"statusText": "Unauthorized",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "45"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"2d-fGAFlq4NfElZLy61am0HflNqUqQ\""
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 08 May 2025 03:22:39 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 45,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"Token expirado, realizar login.\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 5.785,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Equipment"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 4.508,
+				"request": {
+					"method": "DELETE",
+					"url": "http://localhost:3333/log/equipment",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIkMmIkMDgkZjlKQTNoUE5NTEkuZU8wcXdtUlprdS5FWi9pUzMwdnFvQUlJVVFXSHRUTy5iR2U5M013Z0ciLCJpYXQiOjE3NDY2NzQ1MzYsImV4cCI6MTc0NjY3NDU1MX0.I4gN1XXhV502AYPV17HiWJGH5pOcd2tDpaAbYwdbtRw"
+						}
+					],
+					"queryString": [
+						{
+							"name": "",
+							"value": ""
+						}
+					],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "[\n\t{\n\t\t\"name\": \"Roteador\"\n\t}\n]"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "40"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"28-b8Z1fCGVX7+bk0CkqPWNRLG5plk\""
+						},
+						{
+							"name": "Date",
+							"value": "Mon, 28 Apr 2025 04:25:04 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 40,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"Logs removido com sucesso.\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 4.508,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Equipment"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 19.959,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3333/suggestions/units",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIkMmIkMDgkZjlKQTNoUE5NTEkuZU8wcXdtUlprdS5FWi9pUzMwdnFvQUlJVVFXSHRUTy5iR2U5M013Z0ciLCJpYXQiOjE3NDY2NzQ1MzYsImV4cCI6MTc0NjY3NDU1MX0.I4gN1XXhV502AYPV17HiWJGH5pOcd2tDpaAbYwdbtRw"
+						}
+					],
+					"queryString": [
+						{
+							"name": "page",
+							"value": "1"
+						},
+						{
+							"name": "limit",
+							"value": "10"
+						}
+					],
+					"postData": {
+						"mimeType": "",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "511"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"1ff-Y90kP8eTyeMNOLi4lieJVt822A0\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 07 May 2025 18:20:36 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 511,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"totalPage\":6,\"results\":{\"next\":{\"page\":\"11\",\"limit\":\"10\"},\"result\":[{\"units\":\"INTS > REGIAO SACA\"},{\"units\":\"AMA Especialidades Vila Constância - Dr. Vicente Octavio Guida\"},{\"units\":\"AMA/UBS Jardim Miriam I - Manoel Soares de Oliveira\"},{\"units\":\"AMA/UBS Vila Império I\"},{\"units\":\"AMA/UBS Vila Joaniza - João Yunes\"},{\"units\":\"AMA/UBS Vila Missionária\"},{\"units\":\"APD Santo Amaro\"},{\"units\":\"CAPS AD II - Cidade Ademar\"},{\"units\":\"CAPS Adulto II - Cidade Ademar\"},{\"units\":\"CAPS III Adulto Largo 13\"}]}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 19.959,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Units"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 7.066,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3333/log/error",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIkMmIkMDgkZjlKQTNoUE5NTEkuZU8wcXdtUlprdS5FWi9pUzMwdnFvQUlJVVFXSHRUTy5iR2U5M013Z0ciLCJpYXQiOjE3NDY2NzQ1MzYsImV4cCI6MTc0NjY3NDU1MX0.I4gN1XXhV502AYPV17HiWJGH5pOcd2tDpaAbYwdbtRw"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "163"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"a3-fPOrkNo3Z8eQLwADeQXtDsVRdRI\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 07 May 2025 12:44:09 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 163,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[\"[07-05-2025T09:39:52] - Invalid file type only jpg, jpeg and png\",\"[07-05-2025T09:41:34] - TypeError: Cannot read properties of undefined (reading 'getRow')\",\"\"]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 7.066,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Error"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 8.16,
+				"request": {
+					"method": "DELETE",
+					"url": "http://localhost:3333/suggestions/units",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIkMmIkMDgkZjlKQTNoUE5NTEkuZU8wcXdtUlprdS5FWi9pUzMwdnFvQUlJVVFXSHRUTy5iR2U5M013Z0ciLCJpYXQiOjE3NDY2NzQ1MzYsImV4cCI6MTc0NjY3NDU1MX0.I4gN1XXhV502AYPV17HiWJGH5pOcd2tDpaAbYwdbtRw"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "[\n\t{\n\t\t\"name\": \"Daniele\"\n\t},\n\t{\n\t\t\"name\": \"Marcos\"\n\t}\n]"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 201,
+					"statusText": "Created",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "40"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"28-MSzqYAwOlFEQrEq3u4pWep7W7CQ\""
+						},
+						{
+							"name": "Date",
+							"value": "Mon, 28 Apr 2025 23:25:52 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 40,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"Item removido com sucesso.\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 8.16,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Units"
+			},
+			{
+				"startedDateTime": "2025-05-08T03:29:06.170Z",
+				"time": 3.6830000000000003,
+				"request": {
+					"method": "DELETE",
+					"url": "http://localhost:3333/log/error",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.0.2"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIkMmIkMDgkZjlKQTNoUE5NTEkuZU8wcXdtUlprdS5FWi9pUzMwdnFvQUlJVVFXSHRUTy5iR2U5M013Z0ciLCJpYXQiOjE3NDY2NzQ1MzYsImV4cCI6MTc0NjY3NDU1MX0.I4gN1XXhV502AYPV17HiWJGH5pOcd2tDpaAbYwdbtRw"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "[\n\t{\n\t\t\"name\": \"Daniele\"\n\t},\n\t{\n\t\t\"name\": \"Marcos\"\n\t}\n]"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "40"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"28-b8Z1fCGVX7+bk0CkqPWNRLG5plk\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 29 Apr 2025 21:40:26 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 40,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"Logs removido com sucesso.\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 3.6830000000000003,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Error"
+			}
+		]
+	}
+}
